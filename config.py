@@ -25,15 +25,15 @@ load_dotenv()
 admins = {}
 AUDIO_CALL = {}
 VIDEO_CALL = {}
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
-SESSION_STRING = getenv("SESSION_STRING", "")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "SafoTheBot")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "AsmSafone")
-ASSISTANT_NAME = getenv("ASSISTANT_NAME", "MyVideoPlayer")
+API_ID = int(getenv("API_ID", "3047095"))
+API_HASH = getenv("API_HASH", "994ffa4835a9c6fb1d697bdf283addbc")
+BOT_TOKEN = getenv("BOT_TOKEN", "1921906120:AAHFBRG_ng0m7C8BA_eQ0JIeoafHnJsTbZA")
+SESSION_STRING = getenv("SESSION_STRING", "BQABYNENwi2ffvuXs4crVQOX0Nk2JpYi_a1vGC8Gh0p0qV_AW0_tw8_Is1swz0cA53A_sLSVva1QJyVLUN2nDC_dSY1nU1Zy_OB0RZQBJWl56UcO-y1NyRp7PNqLDk-w7976r6z9CaoknGjv64bra6nthEYGJxoK2eymlBPGMeqcrCckoXOoBDdavQkhm0JlC0ju93h2hFXA6n07so_0L83pAYdhNCLP4gXBULCl_94tnwZ9qs8xvrc-ZdziIuM2QxcEJ515cTWl877qzoX73hVbearQL6ZxFFPs9rshCeu_snKdbd9EnznoZpuYnpxW1yVsWoDXNyrgN6pTFyMB52-GasWa_AA")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "ehi_podda_giveaways_chat")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "ehi_podda_official)
+ASSISTANT_NAME = getenv("ASSISTANT_NAME", "LKMusicAssist)
 SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
-REPLY_MESSAGE = getenv("REPLY_MESSAGE", "")
+REPLY_MESSAGE = getenv("REPLY_MESSAGE", "Hi උද්දික, Whats හැපනින් ?")
 if REPLY_MESSAGE:
     REPLY_MESSAGE = REPLY_MESSAGE
 else:
